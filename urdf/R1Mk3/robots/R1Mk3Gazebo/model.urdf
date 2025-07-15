@@ -2,7 +2,7 @@
 <robot name="R1Mk3">
   <link name="mobile_base_body_link">
     <inertial>
-      <mass value="22.387788717205595"/>
+      <mass value="122.387788717205595"/>
       <origin xyz="0.0035319256128036637 0 0.0628037627489639" rpy="0 -0 0"/>
       <inertia ixx="0.5475446262144261" ixy="0" ixz="-0.06348414627429329" iyy="0.5797524718439273" iyz="0" izz="0.270222711489103"/>
     </inertial>
