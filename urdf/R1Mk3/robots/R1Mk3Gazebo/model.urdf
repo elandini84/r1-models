@@ -25,7 +25,9 @@
       </material>
       <surface>
         <contact>
-          <ode/>
+          <ode>
+            <min_depth>0.005</min_depth>
+          </ode>
         </contact>
         <friction>
           <ode>
