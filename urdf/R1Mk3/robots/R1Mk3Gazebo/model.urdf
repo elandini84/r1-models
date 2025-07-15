@@ -7,18 +7,18 @@
       <inertia ixx="0.5475446262144261" ixy="0" ixz="-0.06348414627429329" iyy="0.5797524718439273" iyz="0" izz="0.270222711489103"/>
     </inertial>
     <visual>
-      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <origin xyz="0 0 -0.16" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://R1Mk3/meshes/simmechanics/sim_emorph_mob_base_body.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://R1Mk3/meshes/simmechanics/sim_cer_mobilebase_body.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="">
         <color rgba="0.5 0.5 0.5 1"/>
       </material>
     </visual>
     <collision>
-      <origin xyz="0 0 0" rpy="0 -0 0"/>
+      <origin xyz="0 0 -0.16" rpy="0 0 0"/>
       <geometry>
-        <mesh filename="package://R1Mk3/meshes/simmechanics/sim_emorph_mob_base_body.stl" scale="0.001 0.001 0.001"/>
+        <mesh filename="package://R1Mk3/meshes/simmechanics/sim_cer_mobilebase_body.obj" scale="0.001 0.001 0.001"/>
       </geometry>
       <material name="">
         <color rgba="0.5 0.5 0.5 1"/>
